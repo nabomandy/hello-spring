@@ -1,0 +1,8 @@
+
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' + ${name}">hello! empty</p>
+<!--hello! empty 없어도 상관없음. 근데 thymeleaf 템플릿의 장점은 html 쓰고 그 파일을 서버없이 열어봐도 껍데기를 볼 수 있따.
+템플릿 엔진으로서 동작이 되면 p 안에 내용의 값으로 hello! empty가 치환된다.-->
+</body>
+</html>
